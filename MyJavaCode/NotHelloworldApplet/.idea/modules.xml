@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NotHelloworldApplet.iml" filepath="$PROJECT_DIR$/NotHelloworldApplet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nothelloworld/Nothelloworld.iml" filepath="$PROJECT_DIR$/Nothelloworld/Nothelloworld.iml" />
+    </modules>
+  </component>
+</project>
+
