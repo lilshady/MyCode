@@ -21,9 +21,9 @@ public:
 int main()
 {
 	Derived d;
-	Derived *p = &d;//p指向对象的首字节,VS中将指向虚函数表的指针放在对象的最前面
-	int **p2 = *(int ***)p;//p2指向虚函数表
-	int (*p3)() = (int(*)())*p2;//取出虚函数表的第一项，即上文定义的虚函数get
+	Derived *p = &d;//p脰赂脧貌露脭脧贸碌脛脢脳脳脰陆脷,VS脰脨陆芦脰赂脧貌脨茅潞炉脢媒卤铆碌脛脰赂脮毛路脜脭脷露脭脧贸碌脛脳卯脟掳脙忙
+	int **p2 = *(int ***)p;//p2脰赂脧貌脨茅潞炉脢媒卤铆
+	int (*p3)() = (int(*)())*p2;//脠隆鲁枚脨茅潞炉脢媒卤铆碌脛碌脷脪禄脧卯拢卢录麓脡脧脦脛露篓脪氓碌脛脨茅潞炉脢媒get
 	//std::cout<<*(int*)(*(int**)(*(int***)p))<<std::endl;
 	//std::cout<<p->get()<<std::endl;
 	//
